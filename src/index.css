@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #dedfe0;
+}
+
+.head-text {
+  text-align: center;
+}
+
+.filter-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0 2rem 2rem;
+}
+
+.search-bar {
+  padding: 3px;
+  height: 2.5rem;
+  border-radius: 3px;
+  width: 30%;
+}
+
+#months {
+  height: 2.5rem;
+  border-radius: 3px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.table-container {
+  width: 80%;
+  margin-left: 2rem;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
